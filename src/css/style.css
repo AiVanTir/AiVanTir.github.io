@@ -1,0 +1,319 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #2a3e51;
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 390px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 435px;
+    
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/manchik.png) 90% 100%/ auto 85% no-repeat , url(../img/bgmain.jpg) center/cover no-repeat ;
+}
+
+.title__container{
+    float: left;
+    margin-top: 430px;
+    margin-left: 400px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+    
+}
+
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    margin: 60px 14px;
+}
+
+.aboutme{
+    background: url(../img/bgaboutme.jpg) center/cover no-repeat;
+    text-align: center;
+    font-size: 12px;
+    color: #717883;
+}
+
+.zagaboutme{
+    margin-bottom: 60px;
+}
+
+.aboutme div{
+    margin: 25px;
+}
+
+.aboutme input{
+    height: 30px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: url(../img/aboutmeicon.png) no-repeat;
+    background-position: 7% 50%;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+
+.aboutme h3{
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #263244;
+    font-weight: bold;
+    padding-top: 110px;
+    margin-bottom: 30px;
+}
+
+.umeu{
+    float: leftl;
+    background: url(../img/bgumeu.jpg) center/cover no-repeat;
+    text-align: center;
+    font-size: 13px;
+    color: #515a69;
+    width: 100%;
+    height: 525px;
+}
+
+.umeu li{
+    float: left;
+    margin-right: 86px;
+    width: 210px;
+}
+
+.umeu ul{
+    margin-left: 420px;
+    
+}
+
+.umeu img{
+    margin-bottom: 37px;
+}
+
+.umeu h3{
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #263244;
+    font-weight: bold;
+    padding-top: 110px;
+    margin-bottom: 30px;
+}
+
+.umeu h5{
+    color: #eb8601;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.zagumeu{
+    margin-bottom: 100px;
+}
+
+.keis h3{
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #263244;
+    font-weight: bold;
+    padding-top: 110px;
+    margin-bottom: 30px;
+}
+
+.zagkeis{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.textkeis{
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+.keis h4{
+    font-size: 15px;
+    color: #384354;
+    font-weight: bold;
+}
+
+.klient{
+    margin-left: 385px;
+    padding: 10px;
+}
+
+.pikchakeis{
+    margin-left: 390px;
+}
+
+.textkeis{
+    text-align: center;
+}
+
+.saet{
+    margin-left: 385px;
+    padding: 10px
+}
+
+.nameproject{
+    margin-left: 385px;
+    padding: 10px;
+}
+
+.keis input{
+    height: 45px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: #63b5ae;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px 385px 30px;;
+}
+
+.stoim{
+    text-align: center;
+}
+
+.stat{
+    float: left;
+    background: url(../img/pgstat.jpg) center/cover no-repeat;
+    text-align: center;
+    font-size: 10px;
+    color: #323e4f;
+    width: 100%;
+    height: 500px;
+    text-transform: uppercase;
+}
+
+.stat h3{
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #263244;
+    font-weight: bald;
+    padding-top: 110px;
+    margin-bottom: 30px;
+}
+
+.zagstat{
+    margin-bottom: 90px;
+}
+    
+.stat li{
+    float: left;
+    margin-right: 150px;
+    width: 170px;
+}
+
+.stat ul{
+    margin-left: 360px;
+}
+
+.stat h5{
+    margin: 35px;
+    font-size: 30px;
+}
+
+.otz{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.otz h3{
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #263244;
+    font-weight: bald;
+    padding-top: 90px;
+    margin-bottom: 30px;
+    margin-top: 90px;
+}
+
+.zagotz{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.otz div{
+    margin: 20px;
+}
+
+.fb{
+    float: left;
+    background: url(../img/bgfb.jpg) center/cover no-repeat;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    width: 100%;
+    height: 800px;
+}
+
+.fb h3{
+    font-size: 27px;
+    color: #fff;
+    font-weight: bald;
+    padding-top: 110px;
+    margin-bottom: 30px;
+}
+
+.fb p{
+    margin: 40px;
+}
+
+.fb li{
+    float: left;
+    margin-right: 100px;
+    width: 155px;
+    padding: 5px;
+}
+
+.fb ul{
+    margin-left: 595px;
+}
+
+.rule{
+    width: 100%;
+    height: 100px;
+    background-color: #2a3e51;
+    text-align: center;
+    color: #fff;
+}
