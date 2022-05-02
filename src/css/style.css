@@ -6,6 +6,7 @@ nav{
     width: 100%;
     height: 60px;
     background: #2a3e51;
+    position:fixed; 
 }
 
 .logo{
@@ -14,6 +15,9 @@ nav{
     line-height: 60px;
     padding-left: 390px;
     float: left;
+    -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
 }
 
 .menu{
@@ -29,12 +33,20 @@ nav{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
-    
+    -webkit-animation: topshift 0.4s ease forwards;
+    -o-animation: topshift 0.4s ease forwards;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
+}
+
+main{
+    width: 100%;
+    height: 100%;
 }
 
 .main{
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100%;
     background: url(../img/manchik.png) 90% 100%/ auto 85% no-repeat , url(../img/bgmain.jpg) center/cover no-repeat ;
 }
 
@@ -44,6 +56,13 @@ nav{
     margin-left: 400px;
     color: #2c384a;
     text-align: center;
+    opacity: 0;
+    -webkit-animation: intr 1s ease forwards;
+    -o-animation: intr 1s ease forwards;
+    animation: intr 1s ease forwards;
+    -webkit-animation-delay: 2.4s;
+    -o-animation-delay: 2.4s;
+    animation-delay: 2.4s;
 }
 
 .title__container h1{
@@ -374,4 +393,183 @@ nav{
 
 .123{
     text-align: center;
+}
+
+.menu li a{
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.menu li a:visited{
+    color: white;
+}
+
+.menu li a:hover{
+    color: #e88604;
+}
+
+.menu li a:active{
+    transform: scale(1.1);
+}
+
+.title__container input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.title__container input:hover{
+    background: #344051;
+    color: white;
+}
+
+.title__container input:active{
+    transform: scale(1.1);
+}
+
+@keyframes comming{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes topshift{
+    from{
+        opacity: 0;
+        margin-top: -80px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.menu li:nth-child(2){
+    animation-delay: 0.4s;
+}
+.menu li:nth-child(3){
+    animation-delay: 0.8s;
+}
+.menu li:nth-child(4){
+    animation-delay: 1.2s;
+}
+.menu li:nth-child(5){
+    animation-delay: 1.6s;
+}
+.menu li:nth-child(6){
+    animation-delay: 2.0s;
+}
+
+@keyframes intr{
+    from{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 400px;
+    }
+}
+
+.aboutme input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.aboutme input:hover{
+    background: #344051;
+    color: white;
+}
+
+.aboutme input:active{
+    transform: scale(1.1);
+}
+
+.aboutme:hover{
+    border: 3px solid #e88604;
+    
+}
+.umeu:hover{
+    border: 3px solid #e88604;
+    
+}
+.keis:hover{
+    border: 3px solid #e88604;
+    
+}
+.stoim:hover{
+    border: 3px solid #e88604;
+    
+}
+.stat:hover{
+    border: 3px solid #e88604;
+    
+}
+
+.otz:hover{
+    border: 3px solid #e88604;}
+    
+.keis input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.keis input:active{
+    transform: scale(1.1);
+}
+
+.pika1{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.pika1:hover{
+    transform: scale(1.1);
+}
+
+.pika2{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.pika2:hover{
+    transform: scale(1.1);
+}
+.pika3{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.pika3:hover{
+    transform: scale(1.1);
+}
+.pika4{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.pika4:hover{
+    transform: scale(1.1);
+}
+
+.umeu li{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.umeu li:hover{
+    transform: scale(1.1);
+}
+
+.stat li{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.stat li:hover{
+    transform: scale(1.1);
 }
