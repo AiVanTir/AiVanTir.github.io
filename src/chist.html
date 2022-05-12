@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Это моя первая страница">
+    <meta name="author" content="Ivan">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Иван Терентьев - Веб-разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/newtry.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader_inner"></div>
+    </div>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-2 col-lg-3 col-7">
+                        <div class="logo">Иван Терентьев</div>
+                    </div>
+                    <div class=" px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Обо мне</a></li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Кейсы</a></li>
+                                <li><a href="#">Прайс</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+                        <div class="dropdown">
+                          <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Навигация</a>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Обо мне</a></li>
+                                <li><a class="dropdown-item" href="#">Услуги</a></li>
+                                <li><a class="dropdown-item" href="#">Кейсы</a></li>
+                                <li><a class="dropdown-item" href="#">Прайс</a></li>    
+                                <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                                <li><a class="dropdown-item" href="#">Контакты</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="main">
+           <div class="container h-100">
+               <div class="row align-items-center h-100">
+                   <div class="col-lg-6 mt-5 pt-5">
+                       <div class="title__container mt-5">
+                           <h1>Привет <br> Я Терентьев Иван</h1>
+                           <h4>Фулл стек веб-разработчик</h4>
+                           <input type="button" value="Обо мне">
+                           <input type="button" value="Мои работы">
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </section>
+        <section class="aboutme">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="zagaboutme">
+                            <h3>ОБО МНЕ</h3>
+                            <img src="img/zagcherta.jpg" alt="">
+                        </div>
+                        <br>
+                        <img src="img/aboumemanchik.png" alt="">
+                        <div class="aboutmetext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, asperiores, odit velit natus provident animi voluptatibus. Minus explicabo, distinctio optio.</div>
+                        <div class="aboutmetext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias labore aspernatur repellat, aliquid quasi.</div>
+                        <input type="button" value="Скачать резюме">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="umeu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="zagumeu">
+                            <h3>ЧТО Я УМЕЮ</h3>
+                            <img src="img/zagcherta.jpg" alt="" class="">
+                        </div>
+                        <ul>
+                            <li>
+                                <img src="img/umeunout.png" alt="" class="pika1">
+                                <h5>Веб-дизайн</h5>
+                                <d>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ad repellat voluptate explicabo.</d>
+                            </li>
+                            <li>
+                                <img src="img/umeuznak.png" alt="" class="pika2">
+                                <h5>Разработка</h5>
+                                <d>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tempore iste, inventore possimus dolores ipsum.</d>
+                            </li>
+                            <li>
+                                <img src="img/umeuraketa.png" alt="" class="pika3">
+                                <h5>CEO-оптимизация</h5>
+                                <d>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, cum.</d>
+                            </li>
+                            <li>
+                                <img src="img/umeugrokogov.png" alt="" class="pika4">
+                                <h5>Маркетинг</h5>
+                                <d>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam molestias quam rerum!</d>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="keis">
+        <div class="zagkeis">
+            <h3>КЕЙСЫ</h3>
+            <img src="img/zagcherta.jpg" alt="">
+        </div>
+        <div class="textkeis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, voluptatum.</div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/keis.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Клиент:Какая-то компания
+<a href="http://www.somedomain.com">Нажмите сюда, что бы посетить сайт</a></h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque repellendus neque molestias omnis, iure animi deserunt ipsa vitae iste laudantium?</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/morekeis1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Клиент:Какая-то компания
+<a href="http://www.somedomain.com">Нажмите сюда, что бы посетить сайт</a></h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/morekeis2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color: black">Клиент:Какая-то компания
+<a href="http://www.somedomain.com">Нажмите сюда, что бы посетить сайт</a></h5>
+        <p>Еще какая-то работа</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+                    </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="stoim">
+        <h3>РАСЧЕТ СТОИМОСТИ</h3>
+        <form action="#" class="formastoim">
+            <h4>ТИП САЙТА</h4>
+            <select class="form-select" aria-label="Default select example">
+  <option selected>Выберете пункт...</option>
+  <option value="1">тип 1</option>
+  <option value="2">тип 2</option>
+  <option value="3">тип 3</option>
+</select>
+            <h4>ДИЗАЙН</h4>
+            <select class="form-select" aria-label="Выберете пункт...">
+  <option selected>Выберете пункт...</option>
+  <option value="1">дизайн 1</option>
+  <option value="2">дизайн 2</option>
+  <option value="3">дизайн 3</option>
+</select>
+            <h4>АДАПТИВНОСТЬ</h4>
+            <select class="form-select" aria-label="Выберете пункт...">
+  <option selected>Выберете пункт...</option>
+  <option value="1">комп</option>
+  <option value="2">телефон</option>
+  <option value="3">и ком и телефон</option>
+</select>
+        </form>
+        <img src="img/linpoditog.png" class="img-fluid" alt="...">
+        <ul class="formresult">
+            <li>
+                <h5>Сроки</h5>
+                <h4>0</h4>
+            </li>
+            <li>
+                <h5>Стоимость</h5>
+                <h4>0</h4>
+            </li>
+        </ul>
+    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="conteiner">
+                <div class="row">
+                    <div class="stat">
+        <div class="zagstat">
+            <h3 >НЕМНОГО СТАТИСТИКИ</h3>
+            <img src="img/zagcherta.jpg" alt="">
+        </div>
+        <ul>
+            <li>
+                <img src="img/statsmile.png" alt="">
+                <h5>121</h5>
+                <d>Счастливых клиентов</d>
+            </li>
+            <li>
+               <img src="img/statskob.png" alt="">
+                <h5>4333</h5>
+                <d>Часов работы</d>
+            </li>
+            <li>
+                <img src="img/statgal.png" alt="">
+                <h5>341</h5>
+                <d>Проектов завершено</d>
+            </li>
+            <li>
+                <img src="img/statkub.png" alt="">
+                <h5>22</h5>
+                <d>Наград получено</d>
+            </li>
+        </ul>
+    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="otz">
+        <div class="zagotz">
+            <h3 class="zag">ОТЗЫВЫ</h3>
+            <img src="img/zagcherta.jpg" alt="">
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/kommanchik.png" class="d-block w-10" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Михаил, Ген директор ПАО "Гаспром"</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident molestias facere aperiam, minus perspiciatis quia! Nemo atque pariatur, incidunt quos dicta, quibusdam perspiciatis aut nobis mollitia officia libero.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/kommanchik.png" class="d-block w-10" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis excepturi cupiditate unde quos asperiores sunt hic dignissimos omnis nesciunt iusto.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/kommanchik.png" class="d-block w-10" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aperiam consequatur sed totam ullam, culpa fugit sint nihil esse error.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="zagfb">
+            <h3>МОИ КОНТАКТЫ</h3>
+            <img src="img/zagcherta.jpg" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure velit exercitationem officiis quasi, laborum!</p>
+        <div class="ul1">
+            <ul style="height: 150px;">
+                <li>
+                    <img src="img/fbgeo.png" alt="">
+                    <div>Санкт-Петербург, Невский проспект 11</div>
+                </li>
+                <li>
+                    <img src="img/fbconv.png" alt="">
+                    <div>info@gmail.com</div>
+                </li>
+                <li>
+                    <img src="img/fbtel.png" alt="">
+                    <div>+7(999)999-99-99</div>
+                </li>
+            </ul>
+        </div>
+        <div class="123">ОСТАВЬ МНЕ СООБЩЕНИЕ</div>
+        <div class="ul2">
+            <div class="formsoob">
+            <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Адрес электронной почты</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Ваше сообщение</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+        </div>
+        </div>
+    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
