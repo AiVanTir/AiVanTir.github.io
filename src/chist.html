@@ -25,12 +25,12 @@
                     <div class=" px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block">
                         <div class="menu">
                             <ul>
-                                <li><a href="#">Обо мне</a></li>
-                                <li><a href="#">Услуги</a></li>
-                                <li><a href="#">Кейсы</a></li>
-                                <li><a href="#">Прайс</a></li>
-                                <li><a href="#">Отзывы</a></li>
-                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#aboutme">Обо мне</a></li>
+                                <li><a href="#umeu">Услуги</a></li>
+                                <li><a href="#keis">Кейсы</a></li>
+                                <li><a href="#stoim">Прайс</a></li>
+                                <li><a href="#otz">Отзывы</a></li>
+                                <li><a href="#fb">Контакты</a></li>
                             </ul>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                </div>
            </div>
         </section>
-        <section class="aboutme">
+        <section class="aboutme" id="aboutme">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </section>
-        <section class="umeu">
+        <section class="umeu" id="umeu">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -117,7 +117,30 @@
                 </div>
             </div>
         </section>
-        <section class="keis">
+        <section class="keis" id="keis">
+           <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" css="text-align: center;">
+  Временная акция
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" id="modalopen">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Стой</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Закажи сайт в течении 20 минут и получи скидку 20%!!!!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">нет спасибо</button>
+        <button type="button" class="btn btn-primary">Сейчас закажу</button>
+      </div>
+    </div>
+  </div>
+</div>
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -134,7 +157,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/keis.png" class="d-block w-100" alt="...">
+      <img src="img/shakal/keishakal.jpg" data-src="img/keis.png" class="d-block w-100 imaga__shakal" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Клиент:Какая-то компания
 <a href="http://www.somedomain.com">Нажмите сюда, что бы посетить сайт</a></h5>
@@ -142,7 +165,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/morekeis1.jpg" class="d-block w-100" alt="...">
+      <img src="img/shakal/keishakal.jpg" data-src="img/keis.png" class="d-block w-100 imaga__shakal" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Клиент:Какая-то компания
 <a href="http://www.somedomain.com">Нажмите сюда, что бы посетить сайт</a></h5>
@@ -150,7 +173,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/morekeis2.jpg" class="d-block w-100" alt="...">
+      <img src="img/shakal/keishakal.jpg" data-src="img/keis.png" class="d-block w-100 imaga__shakal" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5 style="color: black">Клиент:Какая-то компания
 <a href="http://www.somedomain.com">Нажмите сюда, что бы посетить сайт</a></h5>
@@ -171,10 +194,10 @@
                 </div>
             </div>
         </section>
-        <section class="stoim">
+        <section class="stoim" id="stoim">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-8">
         <h3>РАСЧЕТ СТОИМОСТИ</h3>
         <form action="#" class="formastoim">
             <h4>ТИП САЙТА</h4>
@@ -200,12 +223,12 @@
 </select>
         </form>
         <img src="img/linpoditog.png" class="img-fluid" alt="...">
-        <ul class="formresult row justify-content-center">
-            <li class="col-12 col-sm-6 col-md-3">
+        <ul class="formresult justify-content-center">
+            <li class="col-4 col-sm-6 col-md-3">
                 <h5>Сроки</h5>
                 <h4>0</h4>
             </li>
-            <li class="col-12 col-sm-6 col-md-3">
+            <li class="col-4 col-sm-6 col-md-3">
                 <h5>Стоимость</h5>
                 <h4>0</h4>
             </li>
@@ -221,45 +244,80 @@
             <h3 >НЕМНОГО СТАТИСТИКИ</h3>
             <img src="img/zagcherta.jpg" alt="">
         </div>
-        <ul class="row justify-content-center">
+        <ul class="row justify-content-center benefits__inner" id="counter">
             <li class="col-12 col-sm-6 col-md-3">
                 <img src="img/statsmile.png" alt="">
-                <h5>121</h5>
+                <h5 class="number" data-num="121">0</h5>
                 <d>Счастливых клиентов</d>
             </li>
             <li class="col-12 col-sm-6 col-md-3">
                <img src="img/statskob.png" alt="">
-                <h5>4333</h5>
+                <h5 class="number" data-num="4333">0</h5>
                 <d>Часов работы</d>
             </li>
             <li class="col-12 col-sm-6 col-md-3">
                 <img src="img/statgal.png" alt="">
-                <h5>341</h5>
+                <h5 class="number" data-num="341">0</h5>
                 <d>Проектов завершено</d>
             </li>
             <li class="col-12 col-sm-6 col-md-3">
                 <img src="img/statkub.png" alt="">
-                <h5>22</h5>
+                <h5 class="number" data-num="22">0</h5>
                 <d>Наград получено</d>
             </li>
         </ul>
     </div>
                 </div>
         </section>
-        <section class="otz">
+        <section class="otz" id="otz">
             <div class="container">
-                <div class="row col-12">
+                <div class="row col-12 justify-content-center">
         <div class="zagotz">
             <h3 class="zag">ОТЗЫВЫ</h3>
-            <img src="img/zagcherta.jpg" alt="">
+            <img class="imaga__shakal "src="img/zagcherta.jpg" alt="">
         </div>
-        <img src="img/kommanchik.png" class="img-fluid" alt="">
-        <div class="row justify-content-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident molestias facere aperiam, minus perspiciatis quia! Nemo atque pariatur, incidunt quos dicta, quibusdam perspiciatis aut nobis mollitia officia libero.</div>
-        <div>Михаил, Ген директор ПАО "Гаспром"</div>
+        <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="imaga__shakal" src="img/shakal/cheldlyaotzhakal.jpg" data-src="img/cheldlyaotz.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Первый клиент</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="imaga__shakal" src="img/shakal/whomendlyaotzhakal.jpg" data-src="img/whomendlyaotz.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Второй клиент</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="imaga__shakal" src="img/shakal/manchikdlyaotzshakal.jpg"  data-src="img/manchikdlyaotz.jpg" class="d-block w-100" alt="">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>третий клиент</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, voluptas.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     </div>
        </div>
         </section>
-        <section class="fb">
+        <section class="fb" id="fb">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -302,6 +360,8 @@
                 </div>
         </section>
     </main>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.spincrement.min.js"></script>
     <script src="js/myScrip.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
